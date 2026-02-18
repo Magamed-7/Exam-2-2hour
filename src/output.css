@@ -468,6 +468,20 @@
     --tw-outline-style: none;
     outline-style: none;
   }
+  .hover\:cursor-pointer {
+    &:hover {
+      @media (hover: hover) {
+        cursor: pointer;
+      }
+    }
+  }
+  .hover\:opacity-75 {
+    &:hover {
+      @media (hover: hover) {
+        opacity: 75%;
+      }
+    }
+  }
   .lg\:block {
     @media (width >= 64rem) {
       display: block;
